@@ -1,0 +1,34 @@
+{
+  "name": "remark",
+  "version": "0.0.1",
+  "description": "react markdown WYSIWYG editor",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack --progress --colors --watch",
+    "babel": "babel src/remark.jsx --presets react --watch --out-file src/remark.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:zjjott/remark.git"
+  },
+  "keywords": [
+    "react",
+    "markdown",
+    "WYSIWYG"
+  ],
+  "author": "zjjott",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zjjott/remark/issues"
+  },
+  "homepage": "https://github.com/zjjott/remark",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "css-loader": "^0.23.1",
+    "draft-js": "^0.1.0",
+    "marked": "^0.3.5",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "style-loader": "^0.13.0"
+  }
+}
